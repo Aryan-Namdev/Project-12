@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@600&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+:root{
+    --btn-clr: #8bb7a2;
+    --bgc: rgb(25, 25, 25);
+}
+
+.container1{
+    height: 95vh;
+    width: 100vw;
+    background-color: var(--bgc);
+}
+
+.navbar{
+    padding: 2% 4%;
+}
+
+ul{
+    list-style: none;
+    gap: 2em;
+    color: white;
+}
+
+ul li{
+    font-size: .9rem;
+    color: rgb(228, 228, 228);
+}
+.hero-1{
+    margin-top: 3em;
+}
+
+.hero-1-heading{
+    font-size: 3rem;
+    color: white;
+}
+
+
+.hero-1-para{
+    color: white;
+    font-size: .8rem;
+    line-height: 1.6rem;
+    margin: 2.5em 0;
+}
+
+.hero-1-content{
+    width: 60%;
+    justify-content: flex-start;
+    margin-left: 6em;
+}
+
+.hero-1-img{
+    height: 60vh;
+    width: 20vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+input[class="hero-1-input"]{
+    width: 60%;
+    border: none;
+    outline: none;
+}
+
+.hero-1-form::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f0e0";
+    color: black;
+    margin-left: .8em;
+}
+
+.hero-1-form{
+    background-color: #fff;
+    width: 70%;
+    padding: 5px;
+}
+
+.hero-2 > h2{
+    width: 40%;
+    margin: 0 auto;
+}
+.hero-2-number-items h2{
+    margin-bottom: .3em;
+    
+}
+
+.hero-2-image img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 3em;
+}
+
+.hero-3-image img{
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    object-position: top right;
+    overflow: hidden;
+
+}
+
+.hero-3-heading{
+    /* margin-bottom: 1.5em; */
+    font-size: 1.7rem;
+    width: 30%;
+    margin: 0 auto 1.5em;
+    text-align: center;
+}
+
+
+.hero-3-content{
+    width: 55%;
+}
+
+.hero-3-content > h3{
+    font-size: 2rem;
+}
+
+.hero-3-content > p{
+    line-height: 1.6rem;
+}
+
+.hero-3-container{
+    margin-bottom: 5em;
+}
+
+.hero-4-headers h2{
+    font-size: 2rem;
+    width: 30%;
+}
+.hero-4-headers > p{
+    width: 40%;
+}
+
+.hero-4-headers{
+    margin-bottom: 2em;
+}
+
+.image{
+    height: 50vh;
+    width: 20vw;
+    object-fit: cover;
+    object-position: top right;
+    overflow: hidden;
+}
+
+.hero-4-team-item{
+    width: 20vw;
+}
+
+.gap{
+    gap: 3em;
+}
+
+footer{
+    background-color: var(--bgc);
+    height:65vh;
+}
+
+.social-logos img{
+    width: 30%;
+    margin-top: .6em;
+}
+
+.line{
+    background-color: white;
+    width: 100%;
+    height: 0.475px;
+    opacity: 50%;
+}
+
+.footer-foot-items{
+    color: white;
+}
+
+.footer-foot-items li{
+    list-style: none;
+    padding: .7em;
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.social-logos{
+    gap: 1em;
+    align-items: center;
+}
